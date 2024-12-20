@@ -11,12 +11,21 @@ importers:
       p5:
         specifier: ^1.11.2
         version: 1.11.2
+    devDependencies:
+      '@types/p5':
+        specifier: ^1.7.6
+        version: 1.7.6
 
 packages:
+
+  '@types/p5@1.7.6':
+    resolution: {integrity: sha512-6pLTOo0V3N5jZb5nTwjiv3lPHLK3Z/TjbhQUj8CTWXocUk1Z/f6OHTp3Pcwi1BhWnf5gqKUcyEb1gP0KIJuQgw==}
 
   p5@1.11.2:
     resolution: {integrity: sha512-kvtMTmxJexkbfuaVThg/1JE6iQyS8tTAqGE1UGbfApKUIzDc5hHM23hc08FV3jG0jlNS2En9kqZDb4FrJ8x+kg==}
 
 snapshots:
+
+  '@types/p5@1.7.6': {}
 
   p5@1.11.2: {}
